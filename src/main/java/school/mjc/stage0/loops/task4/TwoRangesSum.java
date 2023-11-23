@@ -10,7 +10,7 @@ public class TwoRangesSum {
             System.out.println("number to skip is bigger then the last");
         } else {
             for (int counter = 0; counter <= lastInRow; counter++) {
-                if (counter >= numberToSkip) {
+                if (counter > numberToSkip) {
                     skipSum = skipSum + counter;
                     continue;
                 }
